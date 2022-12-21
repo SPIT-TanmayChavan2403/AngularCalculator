@@ -1,0 +1,27 @@
+#buttons-controller{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+}
+
+.CalcButton{
+    width: 18%;
+    height: 17%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #141414;
+    box-shadow:10px 10px 10px -5px rgba(0,0,0,0.75), rgba(255,255,255, 0.05) 0px 8px 20px;
+}
+
+.highlightButton{
+    background-color: #005db2 !important;
+}

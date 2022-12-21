@@ -1,0 +1,45 @@
+::ng-root body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main-support-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    overflow: hidden;
+}
+
+#claculator-frame{
+    width: 30%;
+    height: 90%;
+    min-width: 380px;
+    z-index: 1;
+    background-color: #141414;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 8px 24px;
+}
+
+#circle1{
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: 0;
+    background-color: #005db2;
+    clip-path: circle(60.4% at 74% 25%);
+}
+
+#circle2{
+    width: 600px;
+    height: 400px;
+    bottom: -35%;
+    left: 5%;
+    position: absolute;
+    background-color: #005db2;
+    clip-path: ellipse(45% 25% at 50% 50%);
+}

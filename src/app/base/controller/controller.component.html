@@ -1,0 +1,5 @@
+<div id="buttons-controller">
+    <button (click)="sendToParent(button)" class="CalcButton" *ngFor = "let button of buttons" [ngClass]="{'highlightButton': button === '=' || button === '+' || button === '-' || button === '/' || button === 'AC' || button === 'CE' || button === '%' || button === 'x'}">
+        {{ button }}
+    </button>
+</div>
